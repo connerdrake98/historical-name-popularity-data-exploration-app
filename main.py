@@ -4,6 +4,7 @@ import altair as alt
 import requests
 
 st.title('Historical Name Popularity')
+st.write("by Conner Drake")
 
 @st.cache_data
 def get_name_data():
