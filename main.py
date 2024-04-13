@@ -5,6 +5,7 @@ import requests
 
 st.title('Historical Name Popularity')
 st.write("by Conner Drake")
+st.write("")
 
 @st.cache_data
 def get_name_data():
